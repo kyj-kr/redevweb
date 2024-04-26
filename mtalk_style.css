@@ -606,14 +606,25 @@ h3 {
 	justify-content: center;
   }
   
-  .col-sm-12 {
+.col-sm-12 {
 	/* col-sm-12 클래스를 가진 요소가 가득 차도록 설정합니다. */
 	flex: 0 0 auto;
 	width: 100%;
-  }
+}
   
-  .col-lg-4 {
+.col-lg-4 {
 	/* col-lg-4 클래스를 가진 요소의 너비를 조정하여 중앙으로 배치합니다. */
 	flex: 0 0 auto;
 	width: 100%; /* 또는 원하는 너비로 설정합니다. */
-  }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* 요소 사이의 공간을 동일하게 배분 */
+    align-items: center; /* 요소를 수직 방향으로 가운데 정렬 */
+}
+
+.logo, .navbar-logo {
+    display: flex; /* 로고 이미지를 flex 요소로 만듦 */
+    align-items: center; /* 로고 이미지를 수직 방향으로 가운데 정렬 */
+}
