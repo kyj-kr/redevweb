@@ -270,10 +270,12 @@ $(window).on("scroll",function () {
 	
 	if(bodyScroll > 50){
 	$('.navbar-logo img').attr('src','images/logo-black.svg');
+  $('.logo img').attr('src','images/redev_logo_black.svg');
 	navbar.addClass("nav-scroll");
 
 }else{
 	$('.navbar-logo img').attr('src','images/logo.svg');
+  $('.logo img').attr('src','images/redev_logo.svg');
 	navbar.removeClass("nav-scroll");
 }
 
@@ -284,9 +286,11 @@ $(window).on("load",function (){
 	
 	if(bodyScroll > 50){
 	$('.navbar-logo img').attr('src','images/logo-black.svg');
+  $('.logo img').attr('src','images/redev_logo_black.svg');
 	navbar.addClass("nav-scroll");
 	}else{
 	$('.navbar-logo img').attr('src','images/logo.svg');
+  $('.logo img').attr('src','images/redev_logo.svg');
 	navbar.removeClass("nav-scroll");
 	}
 
