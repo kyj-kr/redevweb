@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.dopamine2",
+        "sha256_cert_fingerprints":
+          ["B3:52:17:25:F8:D8:E2:DC:BF:0C:D5:6F:8F:B3:F1:5F:FE:B0:E5:71:21:A9:C1:BD:C3:E0:13:12:33:6D:66:29"]
+      }
+    }
+  ]
