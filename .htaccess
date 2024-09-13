@@ -1,4 +1,0 @@
-RewriteEngine On
-
-# /invite로 접근할 경우 invite.php로 리다이렉트
-RewriteRule ^invite$ invite.php [L,QSA]
