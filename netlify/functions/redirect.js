@@ -5,21 +5,21 @@ exports.handler = async (event, context) => {
       return {
         statusCode: 302,
         headers: {
-          Location: 'https://apps.apple.com/us/app/id6739634625',
+          Location: 'https://apps.apple.com/us/app/id6744839378',
         },
       };
     } else if (/Android/i.test(userAgent)) {
       return {
         statusCode: 302,
         headers: {
-          Location: 'https://play.google.com/store/apps/details?id=com.redev.FlatCube',
+          Location: 'https://play.google.com/store/apps/details?id=com.redev.petman',
         },
       };
     } else {
       return {
         statusCode: 302,
         headers: {
-          Location: 'https://flatcube.app', // 기본 리디렉션
+          Location: 'https://play.google.com/store/apps/details?id=com.redev.petman', // 기본 리디렉션
         },
       };
     }
