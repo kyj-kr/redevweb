@@ -29,3 +29,8 @@
   from = "/petman"
   to = "/.netlify/functions/redirect"
   status = 200
+
+  [[redirects]]
+  from = "/mbti"
+  to = "/.netlify/functions/redirect"
+  status = 200
