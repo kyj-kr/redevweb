@@ -31,6 +31,6 @@
   status = 200
 
   [[redirects]]
-  from = "/mbti"
+  from = "/mbtidownload"
   to = "/.netlify/functions/mbti_redirect"
   status = 200
