@@ -34,3 +34,8 @@
   from = "/mbtidownload"
   to = "/.netlify/functions/mbti_redirect"
   status = 200
+
+  [[redirects]]
+  from = "/autogram"
+  to = "/.netlify/functions/autogram_redirect"
+  status = 200
