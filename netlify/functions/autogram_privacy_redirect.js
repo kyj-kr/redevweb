@@ -9,7 +9,16 @@ exports.handler = async (event, context) => {
         Location: '/autogram_privacy_ko.html'
       }
     };
-  } else {
+  }
+  else if (acceptLanguage.toLowerCase().includes('ja')) {
+    return {
+      statusCode: 302,
+      headers: {
+        Location: '/autogram_privacy_ja.html'
+      }
+    };
+  }
+  else {
     return {
       statusCode: 302,
       headers: {

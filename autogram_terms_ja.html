@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="title" content="Autogram ポリシー">
+	<meta name="description" content="Autogram のポリシーページ">
+	<title>Autogram ポリシー</title>
+	<link rel="shortcut icon" href="images/autogram_logo.svg">
+	<link rel="apple-touch-icon-precomposed" href="images/autogram_logo.svg">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/contents.css">
+	<link rel="stylesheet" href="css/popup.css">
+	<script>
+		function toggleTab(tab) {
+			document.getElementById('privacyBlock').style.display = (tab === 'privacy') ? 'block' : 'none';
+			document.getElementById('termsBlock').style.display = (tab === 'terms') ? 'block' : 'none';
+			document.getElementById('tabPrivacy').className = (tab === 'privacy') ? 'on' : '';
+			document.getElementById('tabTerms').className = (tab === 'terms') ? 'on' : '';
+		}
+	 window.onload = function () {
+							toggleTab('terms'); // 초기 로드시 terms 탭 활성화
+						};
+		
+	</script>
+</head>
+
+<body>
+	<div class="footer-fix">
+		<header class="header">
+			<div class="header-top">
+				<h1 class="logo" style="text-align: center; padding-top: 15px;">
+					<a href="https://redevapp.com/autogram_download">
+						<img src="images/autogram_logo.svg" alt="Autogram" style="width:100px; height:auto;">
+					</a>
+				</h1>
+			</div>
+			<div class="tab-basic">
+				<ul class="tab-lst" id="parentToggle">
+					<li id="tabPrivacy" class="on"><a href="javascript:toggleTab('privacy');">プライバシーポリシー</a></li>
+					<li id="tabTerms"><a href="javascript:toggleTab('terms');">利用規約（EULA含む）</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="container privacy">
+			<section class="grid">
+				<div class="pp-box" id="privacyBlock" style="display:block;">
+					<div class="terms-box">
+						<p>Autogram（以下「当社」といいます）は、ユーザーの個人情報を大切にし、関連法令に基づき安全かつ透明に保護・管理するため最善を尽くします。本ポリシーでは、当社サービスに関連して収集・利用される個人情報の項目、目的、保有期間、保護措置について詳しく説明します。
+						</p>
+						<span class="tit">1. 収集項目と方法</span>
+						<p class="txt">当社はサービス提供に必要最低限の個人情報のみを収集します。</p>
+						<ul class="terms-lst-inner">
+							<li><b>会員登録時</b>: メールアドレス</li>
+							<li><b>サービス利用時</b>: デバイス情報（モデル名、OSバージョン、固有ID）、メールアドレス、UID、生成された画像や投稿データ</li>
+						</ul>
+						<p class="txt">個人情報は会員登録、サービス利用、問い合わせ、イベント応募などを通じて収集され、IPアドレスやアクセスログ、利用履歴が自動収集されることがあります。</p>
+						<span class="tit">2. 利用目的</span>
+						<p class="txt">収集した個人情報は以下の目的で利用します。</p>
+						<ul class="terms-lst-inner">
+							<li>会員登録意思確認、本人確認、管理</li>
+							<li>AIによる推薦およびコンテンツ生成サービスの提供</li>
+							<li>不正利用防止、利用履歴の分析</li>
+							<li>お知らせ、問い合わせ対応</li>
+							<li>イベントや広告情報の提供（別途同意時）</li>
+						</ul>
+						<span class="tit">3. 保有期間</span>
+						<p class="txt">目的達成後、速やかに破棄します。ただし、法令に基づき保管が必要な場合は以下の通り保管します。</p>
+						<ul class="terms-lst-inner">
+							<li>電子商取引法に基づく広告記録: 6ヶ月</li>
+							<li>通信秘密保護法に基づく接続ログ: 3ヶ月</li>
+						</ul>
+						<span class="tit">4. 提供および委託</span>
+						<p class="txt">当社は原則として第三者に提供しません。法令または同意がある場合のみ提供します。現在委託はなく、委託時には事前に通知・同意を得ます。</p>
+						<span class="tit">5. 破棄方法</span>
+						<p class="txt">保有期間経過や目的達成時、電子データは完全削除、紙資料はシュレッダーまたは焼却で破棄します。</p>
+						<span class="tit">6. クッキー</span>
+						<p class="txt">当社はクッキーを使用せず、端末に情報を保存・読み込みません。</p>
+						<span class="tit">7. 権利行使</span>
+						<p class="txt">ユーザーはいつでも閲覧、修正、削除、処理停止を admin@redevapp.com
+							またはカスタマーサービス経由で要求できます。当社は速やかに対応し、法的理由で拒否する場合はその理由を通知します。</p>
+						<span class="tit">8. 保護措置</span>
+						<p class="txt">内部管理計画、アクセス権最小化、暗号化、セキュリティプログラム、物理的アクセス制御などを実施しています。</p>
+						<span class="tit">9. 個人情報管理責任者</span>
+						<ul class="terms-lst-inner">
+							<li>氏名: キム・ヨンジン</li>
+							<li>部署: 個人情報管理責任</li>
+							<li>役職: 代表</li>
+							<li>メール: admin@redevapp.com</li>
+							<li>電話: +82 10-2302-9128</li>
+						</ul>
+						<span class="tit">10. 改定</span>
+						<p class="txt">本ポリシーは2025年6月24日から適用されます。変更時は7日前までに通知し、重要変更時は14日前までに通知・必要に応じ同意を得ます。</p>
+					</div>
+				</div>
+				<div class="pp-box" id="termsBlock" style="display:none;">
+					<div class="terms-box">
+						<span class="tit">1. サービス概要</span>
+						<p class="txt">Autogram は、AI による SNS
+							投稿の推薦、画像やハッシュタグの生成、コンテンツ最適化機能を提供します。本規約はサービスの利用に関し、会員と当社間の権利・義務・責任を定めるものです。会員はサービス利用により本規約に同意したものとみなされます。
+						</p>
+						<span class="tit">2. アカウント管理</span>
+						<p class="txt">会員はメール、Google、Apple アカウントで登録でき、正確かつ最新の情報を提供する義務があります。アカウント管理は会員の責任です。</p>
+						<span class="tit">3. 有料サービス・サブスクリプション</span>
+						<p class="txt">Autogram
+							は無料・有料機能および月額・年額サブスクリプションを提供します。サブスクリプションは解約されない限り自動更新され、決済・返金は各ストアのポリシーに従います。</p>
+						<span class="tit">4. 禁止行為</span>
+						<ul class="terms-lst-inner">
+							<li>法令・公序良俗に違反する行為</li>
+							<li>他者の名誉毀損、プライバシー侵害</li>
+							<li>無断広告・スパム行為</li>
+							<li>システムのハッキング・クローリング</li>
+							<li>なりすまし・不正アクセス</li>
+						</ul>
+						<span class="tit">5. 免責</span>
+						<p class="txt">当社はサービスの安定提供に努めますが、天災、第三者の不正行為等による損害について責任を負いません。</p>
+						<span class="tit">6. 知的財産権</span>
+						<p class="txt">Autogram の提供するコンテンツ・ソフトウェアの権利は当社に帰属し、無断で複製・配布・二次利用することはできません。</p>
+						<span class="tit">7. 準拠法・管轄</span>
+						<p class="txt">本規約は韓国法に準拠し、紛争はソウル中央地裁の専属管轄とします。</p>
+						<span class="tit">8. エンドユーザーライセンス契約 (EULA)</span>
+						<p class="txt">当社は会員に対し、個人的・譲渡不可・非独占的な限定使用権を付与します。リバースエンジニアリング等は禁止です。Apple 標準 EULA
+							は以下をご参照ください：<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+								target="_blank">Apple 標準 EULA</a></p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<p class="only-cpt">Copyright ⓒ 2025 Autogram Inc. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+
+</html>
