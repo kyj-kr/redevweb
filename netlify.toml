@@ -36,6 +36,11 @@
   status = 200
 
   [[redirects]]
-  from = "/autogram"
+  from = "/autogram_download"
   to = "/.netlify/functions/autogram_redirect"
+  status = 200
+
+  [[redirects]]
+  from = "/autogram_privacy"
+  to = "/.netlify/functions/autogram_privacy_redirect"
   status = 200
