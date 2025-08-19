@@ -37,15 +37,30 @@
 
   [[redirects]]
   from = "/autogram_download"
-  to = "/.netlify/functions/autogram_redirect"
+  to = "/.netlify/functions/tagai_redirect"
   status = 200
 
   [[redirects]]
-  from = "/autogram-privacy"
-  to = "/.netlify/functions/autogram_privacy_redirect"
+  from = "/autogram_privacy"
+  to = "/.netlify/functions/tagai_privacy_redirect"
   status = 200
 
   [[redirects]]
-  from = "/autogram-terms"
-  to = "/.netlify/functions/autogram_terms_redirect"
+  from = "/autogram_terms"
+  to = "/.netlify/functions/tagai_terms_redirect"
+  status = 200
+
+  [[redirects]]
+  from = "/tagai_download"
+  to = "/.netlify/functions/tagai_redirect"
+  status = 200
+
+  [[redirects]]
+  from = "/tagai_privacy"
+  to = "/.netlify/functions/tagai_privacy_redirect"
+  status = 200
+
+  [[redirects]]
+  from = "/tagai_terms"
+  to = "/.netlify/functions/tagai_terms_redirect"
   status = 200

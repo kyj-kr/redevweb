@@ -6,7 +6,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 302,
       headers: {
-        Location: '/autogram_terms_ko.html'
+        Location: '/tagai_terms_ko.html'
       }
     };
   }
@@ -14,7 +14,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 302,
       headers: {
-        Location: '/autogram_terms_ja.html'
+        Location: '/tagai_terms_ja.html'
       }
     };
   }
@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 302,
       headers: {
-        Location: '/autogram_terms.html'
+        Location: '/tagai_terms_en.html'
       }
     };
   }
